@@ -1,0 +1,35 @@
+/* nav start */
+nav {
+    display: flex;
+    padding: 1vh 5vw;
+}
+nav ul {
+    display: flex;
+    margin-left: 15vw;
+}
+nav li {
+    padding: 1.8vh 1vw;
+    list-style: none;   
+}
+nav a {
+    text-decoration: none;
+}
+a#start {
+    background-color: #ED661F;
+    font-weight: bold;
+}
+li.start:hover {
+    border: 2px inset #ED661F;
+}
+ul.underline a:hover, a.underline:hover {
+    border-bottom: 2px solid #ED661F;
+}
+li.start {
+    padding: auto;
+    text-align: center;
+    background-color: #ED661F;
+    width: 7vw;
+    height: 2vh;
+    margin-left: 2vw;
+}
+/* nav end */
