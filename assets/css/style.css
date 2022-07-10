@@ -121,7 +121,7 @@ span {
 }
 /* Div.purpose end */
 
-/* Div#products */
+/* Div#products start */
 div#products {
     margin-top: 30vh;
 }
@@ -147,6 +147,9 @@ p.price {
 .newest {
     margin-bottom: 5vh;
 }
+/* Div.products end */
+
+/* Div.see-all */
 div.see-all img {
     width: 5vw;
     height: 1.6vh;
@@ -163,12 +166,18 @@ div.see-all {
     position: relative;
     left: 76.5vw;
 }
+/* Div.see-all end */
+
+/* Div.border start */
 div.border { 
     height: 2vh;
     background-color: lightgray;
     margin: 6vh 0;
     border: inset;
 }
+/* Div.border end */
+
+/* Div.customers start */
 div.reviews {
     display: flex;
     justify-content: space-evenly;
@@ -203,3 +212,6 @@ img.star {
 .reviews p {
     font-weight: bold;
 }
+/* Div.customers end */
+
+/*  */
