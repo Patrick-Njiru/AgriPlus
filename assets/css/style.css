@@ -1,13 +1,12 @@
 /* nav start */
 nav {
-    width: auto;
     height: 12vh;
     display: flex;
     padding: 1vh 0 0 5vw;
 }
 nav ul {
     display: flex;
-    margin-left: 18vw;
+    margin-left: 17vw;
 }
 nav li {
     padding: 1.8vh 1.2vw;
@@ -114,9 +113,36 @@ span {
     text-align: left;
 }
 .purpose img {
-    width: 50%;
+    width: 55%;
+    height: 50vh;
     position: absolute;
     right:5vw;
-    top: 125vh;
+    top: 122vh;
 }
 /* Div.purpose end */
+
+/* Div#products */
+div#products {
+    margin-top: 30vh;
+}
+#products .center {
+    text-align: center;
+    margin-bottom: 10vh;
+}
+#products p {
+    font-size: 1.39vw;
+}
+.popular {
+    display: flex;
+    justify-content: space-around;
+}
+.popular img {
+    width: 20vw;
+    display: block;
+}
+.products:nth-child(3) {
+    text-align: left;
+}
+p.price {
+    font-weight: 600;
+}
