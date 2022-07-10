@@ -169,3 +169,37 @@ div.border {
     margin: 6vh 0;
     border: inset;
 }
+div.reviews {
+    display: flex;
+    justify-content: space-evenly;
+}
+.reviews div {
+    border: 1px outset lightgrey;
+    width: 18%;
+    height: 50vh;
+    text-align: justify;
+    padding-left: 2vw;
+    margin-bottom: 10vh;
+}
+.reviews img {
+    width: 2.5vw;
+    height:5vh ;
+    position: relative;
+    top: 2.5vh;
+    left: .1vw;
+}
+.reviews h2 {
+    margin-top: 10vh;
+}
+img.g-star {
+    width:4vw ;
+    height: 9vh;
+    position: relative;
+    top: 4.5vh;
+}
+img.star {
+    margin-top: 4vh;
+}
+.reviews p {
+    font-weight: bold;
+}
