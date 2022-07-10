@@ -1,6 +1,6 @@
 /* nav start */
 nav {
-    width: 100vw;
+    width: auto;
     height: 12vh;
     display: flex;
     padding: 1vh 0 0 5vw;
@@ -38,8 +38,7 @@ li.start {
     background-color: antiquewhite;
     background: url(../images/image\ 1.png) no-repeat;
     height: 100vh;
-    width: 100%;
-    background-size: 100vw 100vh;
+    background-size:100vw 100vh;
 }
 .background img {
     position: absolute;
@@ -61,6 +60,8 @@ li.start {
     position: relative;
     left: 5vw;
     font-size: 1.39vw;
+    margin-right: 3vw;
+    padding-top: 3vh;
 }
 .background a {
     display: block;
@@ -82,19 +83,40 @@ li.start {
 .stats {
     background-color: white;
     font-weight: bold;
-    display: flex;
     width: 54vw;
-    height: 5vh;
+    height: 0vh;
     position: absolute;
     left: 34%;
-    top: 100vh;
+    bottom: -20vh;
     border: 1px solid lightgrey;
     border-bottom: 5px solid lightgray ;
-    padding: 5% 0 10% 0;
+    padding-bottom: 10%;
+    font-size: smaller;
 }
-.background p{
-    margin-right: 3vw;
+.stats div {
+    display: flex;
     text-align: center;
-    padding-top: 3vh;
 }
 /* Div.background-img end */
+
+/* Div.purpose start */
+
+div.purpose {
+    margin-top: 15vh;
+}
+span {
+    border-bottom: 4px solid #ED661F;
+}
+.purpose p {
+    font-size: 1.39vw;
+    word-spacing: 0.3em;
+    width: 45vw;
+    text-align: left;
+}
+.purpose img {
+    width: 50%;
+    position: absolute;
+    right:5vw;
+    top: 125vh;
+}
+/* Div.purpose end */
