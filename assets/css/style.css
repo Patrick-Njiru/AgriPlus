@@ -163,3 +163,9 @@ div.see-all {
     position: relative;
     left: 76.5vw;
 }
+div.border { 
+    height: 2vh;
+    background-color: lightgray;
+    margin: 6vh 0;
+    border: inset;
+}
