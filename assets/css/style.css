@@ -144,6 +144,22 @@ div#products {
 p.price {
     font-weight: 600 ;
 }
+.newest {
+    margin-bottom: 5vh;
+}
+div.see-all img {
+    width: 5vw;
+    height: 1.6vh;
+}
 div.see-all a {
     color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.39vw;
+    word-spacing: .7vw;
+    margin-right: 1.3vw;
+}
+div.see-all {
+    position: relative;
+    left: 76.5vw;
 }
