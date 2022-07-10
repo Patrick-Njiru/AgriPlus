@@ -1,0 +1,18 @@
+* {
+    font-family: 'poppins', 'inter', sans-serif;
+    background-color: black;
+}
+body {
+    margin: auto;
+}
+/* Nav start */
+nav {
+    color: white;
+}
+nav a {
+    color: white;
+}
+nav #start {
+    font-size: large;
+}
+/* Nav end */
