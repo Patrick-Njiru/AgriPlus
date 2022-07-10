@@ -132,17 +132,18 @@ div#products {
 #products p {
     font-size: 1.39vw;
 }
-.popular {
+.popular, .newest {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 10vh;
 }
-.popular img {
+.popular img, .newest img {
     width: 20vw;
     display: block;
 }
-.products:nth-child(3) {
-    text-align: left;
-}
 p.price {
-    font-weight: 600;
+    font-weight: 600 ;
+}
+div.see-all a {
+    color: black;
 }
