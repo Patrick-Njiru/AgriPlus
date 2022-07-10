@@ -184,9 +184,9 @@ div.reviews {
 }
 .reviews div {
     border: 1px outset lightgrey;
-    width: 18%;
+    width: 23%;
     height: 50vh;
-    text-align: justify;
+    text-align: center;
     padding-left: 2vw;
     margin-bottom: 10vh;
 }
@@ -194,7 +194,7 @@ div.reviews {
     width: 2.5vw;
     height:5vh ;
     position: relative;
-    top: 2.5vh;
+    top: 1.5vh;
     left: .1vw;
 }
 .reviews h2 {
@@ -204,13 +204,17 @@ img.g-star {
     width:4vw ;
     height: 9vh;
     position: relative;
-    top: 4.5vh;
+    top: 3.5vh;
 }
 img.star {
     margin-top: 4vh;
 }
 .reviews p {
     font-weight: bold;
+    margin-top: 5vh;
+}
+.reviews p.lower {
+    margin-top: 8vh;
 }
 /* Div.customers end */
 
