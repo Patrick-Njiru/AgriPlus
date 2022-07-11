@@ -159,20 +159,20 @@ p.price {
 
 /* Div.see-all */
 div.see-all img {
-    width: 5vw;
-    height: 1.6vh;
+    width: 4vw;
+    height: 2.5vh;
 }
 div.see-all a {
     color: black;
     text-decoration: none;
     font-weight: 600;
-    font-size: 1.39vw;
+    font-size: 2.2vw;
     word-spacing: .7vw;
     margin-right: 1.3vw;
 }
 div.see-all {
     position: relative;
-    left: 76.5vw;
+    left: 74.5vw;
 }
 /* Div.see-all end */
 
@@ -180,15 +180,18 @@ div.see-all {
 div.border { 
     height: 2vh;
     margin: 6vh 0;
-    border: inset;
+    border-top: inset;
 }
 /* Div.border end */
 
 /* Div.customers start */
+.customers {
+    margin: 0 3.5vw;
+}
 div.reviews {
     display: flex;
     justify-content: space-between;
-    margin: 0 5vw;
+    margin: 0 3vw 0 0.5vw ;
 }
 .reviews div {
     border: 1px outset lightgrey;
@@ -207,6 +210,7 @@ div.reviews {
 }
 .reviews h2 {
     margin-top: 10vh;
+    font-size: 2vw;
 }
 img.g-star {
     width:4vw ;
@@ -220,9 +224,13 @@ img.star {
 .reviews p {
     font-weight: bold;
     margin-top: 5vh;
+    font-size: 1.39vw;
 }
 .reviews p.lower {
     margin-top: 8vh;
+}
+.customers h2 {
+    font-size: 2vw;
 }
 /* Div.customers end */
 
@@ -256,6 +264,12 @@ span a {
 }
 span.link:hover {
     border: 5px outset #ED661F;
+}
+.subscription h2 {
+    font-size: 2vw;
+}
+.subscription p {
+    font-size: 1.39vw;
 }
 /* Div.subscription end */
 
@@ -298,9 +312,18 @@ span.footer {
     font-weight: 700;
 }
 .contact p {
-    font-size: 1.39v;
+    font-size: 1.39vw;
 }
 .contact div.others {
     margin-right: 5vw;
+}
+.lh {
+    line-height: 4.2vh;
+}
+.contact h2 {
+    font-size: 2vw;
+}
+.contact h1 {
+    font-size: 2.7vw;
 }
 /* Div.contact end */
