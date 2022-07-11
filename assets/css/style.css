@@ -1,19 +1,29 @@
 /* nav start */
 nav {
     height: 12vh;
-    display: flex;
-    padding: 1vh 0 0 5vw;
+    display: flex; 
+    justify-content: space-between;
+    padding: 3.8vh 3vw;
+}
+nav h1 {
+    font-size: 2.5vw;
+    margin-top: 6vh;
 }
 nav ul {
+    color: green;
     display: flex;
-    margin-left: 17vw;
+    padding-top: 3vh;
 }
 nav li {
     padding: 1.8vh 1.2vw;
-    list-style: none;   
+    list-style: none;
+    font-size: 1.5vw;  
 }
 nav a {
     text-decoration: none;
+}
+a#start {
+    font-size: 1.5vw;
 }
 li.start:hover {
     border: 2px inset #ED661F;
@@ -23,9 +33,9 @@ ul.underline a:hover, a.underline:hover {
 }
 li.start {
     text-align: center;
-    width: 8vw;
-    height: 2vh;
-    margin-left: 2vw;
+    width: 10vw;
+    height: 3vh;
+    margin-left: 2vw;    
 }
 /* nav end */
 
