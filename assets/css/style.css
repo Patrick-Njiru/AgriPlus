@@ -100,7 +100,7 @@ li.start {
 
 div.purpose {
     margin-left: 5vw;
-    padding-top: 30vh;
+    padding-top: 25vh;
 }
 .purpose h2 {
     font-size: 2vw;
@@ -116,7 +116,7 @@ span {
 }
 .purpose img {
     width: 50%;
-    height: 55vh;
+    height: 50vh;
     position: absolute;
     right: 5vw;
    top: 138vh;
@@ -125,7 +125,7 @@ span {
 
 /* Div#products start */
 div#products {
-    margin: 0 5vw;
+    margin: 30vh 5vw 0;
 }
 #products .center {
     text-align: center;
@@ -151,6 +151,9 @@ p.price {
 }
 #products h2 {
     font-size: 2vw;
+}
+#products h3 {
+    font-size: 1.6vw
 }
 /* Div.products end */
 
