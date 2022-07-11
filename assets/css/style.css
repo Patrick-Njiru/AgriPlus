@@ -255,15 +255,15 @@ span.link:hover {
 div.contact {
     display: flex;
     margin-top: 2vh;
-    height: 70vh;
+    height: 60vh;
 }
 div.contact div {
     padding-top: 15vh;
-    padding-left: 5vw;
-    width: 30%;
+    width: 20%;
 }
-div.socials {
-    width: 40vw;
+div.contact div.socials {
+    width: 50vw;
+    padding-left: 5vw;
 }
 .contact img {
     width: 2vw;
@@ -278,5 +278,19 @@ div.socials {
 .contact img.two {
     position: relative;
     top: .1vh;
+}
+span.footer {
+    color: white;
+    background-color: black;
+    display: inline-block;
+    width: 98vw;
+    height: 8vh;
+    border-bottom: 0px;
+    text-align: center;
+    font-size: larger;
+    font-weight: 700;
+}
+.contact p {
+    font-size: 1.39vw;
 }
 /* Div.contact end */
