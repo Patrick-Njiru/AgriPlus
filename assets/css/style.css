@@ -117,15 +117,15 @@ span {
 .purpose img {
     width: 50%;
     height: 55vh;
-    position: relative;
-    top: -38vh;
-    left: 40vw;
+    position: absolute;
+    right: 5vw;
+   top: 138vh;
 }
 /* Div.purpose end */
 
 /* Div#products start */
 div#products {
-    margin: 30vh 5vw 0;
+    margin: 0 5vw;
 }
 #products .center {
     text-align: center;
