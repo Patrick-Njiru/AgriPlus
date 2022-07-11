@@ -30,7 +30,7 @@ li.start {
 }
 /* nav end */
 
-/* Div.background-img start */
+/* Div.background start */
 .background {
 
     background-color: antiquewhite;
@@ -250,3 +250,33 @@ span.link:hover {
     border: 5px outset #ED661F;
 }
 /* Div.subscription end */
+
+/* Div.contact start */
+div.contact {
+    display: flex;
+    margin-top: 2vh;
+    height: 70vh;
+}
+div.contact div {
+    padding-top: 15vh;
+    padding-left: 5vw;
+    width: 30%;
+}
+div.socials {
+    width: 40vw;
+}
+.contact img {
+    width: 2vw;
+    height: 4vh;
+    border-radius: 50%;
+}
+.contact img.store {
+    width: 8vw;
+    height: 7vh;
+    border-radius: 8%;
+}
+.contact img.two {
+    position: relative;
+    top: .1vh;
+}
+/* Div.contact end */

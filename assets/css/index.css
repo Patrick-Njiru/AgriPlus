@@ -28,3 +28,9 @@ a.subscribe {
     color: white;
 }
 /* Div.subscription end */
+
+/* Div.contact start */
+div.contact {
+    color: white;
+    background-color: black;
+}
