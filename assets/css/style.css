@@ -22,8 +22,7 @@ ul.underline a:hover, a.underline:hover {
     border-bottom: 2px solid #ED661F;
 }
 li.start {
-/*     padding: auto;
- */    text-align: center;
+    text-align: center;
     background-color: #ED661F;
     width: 8vw;
     height: 2vh;
