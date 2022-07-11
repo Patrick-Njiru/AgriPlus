@@ -184,8 +184,8 @@ div.reviews {
 }
 .reviews div {
     border: 1px outset lightgrey;
-    width: 23%;
-    height: 50vh;
+    min-width: 23%;
+    min-height: 50vh;
     text-align: center;
     padding-left: 2vw;
     margin-bottom: 10vh;
