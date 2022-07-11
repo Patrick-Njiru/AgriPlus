@@ -6,8 +6,8 @@ nav {
     padding: 0.8vh 3vw 3.8vh;
 }
 nav h1 {
-    font-size: 2.5vw;
-    margin-top: 6vh;
+    font-size: 3.7vw;
+    margin-top: 4vh;
 }
 nav ul {
     color: green;
@@ -99,8 +99,11 @@ li.start {
 /* Div.purpose start */
 
 div.purpose {
-    margin-top: 15vh;
     margin-left: 5vw;
+    padding-top: 30vh;
+}
+.purpose h2 {
+    font-size: 2vw;
 }
 span {
     border-bottom: 4px solid #ED661F;
@@ -113,10 +116,10 @@ span {
 }
 .purpose img {
     width: 50%;
-    height: 50vh;
-    position: absolute;
-    right:5vw;
-    top: 122vh;
+    height: 55vh;
+    position: relative;
+    top: -38vh;
+    left: 40vw;
 }
 /* Div.purpose end */
 
@@ -145,6 +148,9 @@ p.price {
 }
 .newest {
     margin-bottom: 5vh;
+}
+#products h2 {
+    font-size: 2vw;
 }
 /* Div.products end */
 
