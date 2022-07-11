@@ -1,6 +1,7 @@
 body {
     font-family: 'poppins', 'inter', sans-serif;
-    overflow-x: auto;
+    width: 100%;
+    overflow-x: hidden;
 }
 /* Nav start */
 nav {
@@ -14,10 +15,22 @@ nav a {
 nav #start {
     font-size: large;
 }
-a#start {
+a#start, li.start {
     background-color: #ED661F;
 }
 /* Nav end */
+
+/* Div.background start */
+.background a {
+    background-color: #ED661F;
+}
+/* Div.background end */
+
+/* Div.border */
+div.border {
+    background-color: lightgray;
+}
+/* Div.border */
 
 /* Div.subscription start */
 div.subscription {
@@ -27,6 +40,9 @@ div.subscription {
 a.subscribe {
     color: white;
 }
+span.link {
+    background-color: #ED661F;
+}
 /* Div.subscription end */
 
 /* Div.contact start */
@@ -34,3 +50,7 @@ div.contact {
     color: white;
     background-color: black;
 }
+span.footer {
+    background-color: black;
+}
+/* Div.contact end */
