@@ -3,7 +3,7 @@ nav {
     height: 12vh;
     display: flex; 
     justify-content: space-between;
-    padding: 3.8vh 3vw;
+    padding: 0.8vh 3vw 3.8vh;
 }
 nav h1 {
     font-size: 2.5vw;
@@ -47,19 +47,14 @@ li.start {
 }
 .background img {
     position: absolute;
-    right: 6vw;
-    top: 36vh;
+    right: 2vw;
+    top: 45vh;
     width: 49vw;
     height: 40vh;
 }
 .background h1 {
-    padding-top: 28vh;
-    position: relative;
-    left: 5vw;
-    word-spacing: .6vw;
-    letter-spacing: .6vw;
-    line-height: 1.5em;
-    font-size: 4vh;
+    padding: 25vh 0 0 5vw;
+    font-size: 3.7vw;
 }
 .background p {
     position: relative;
@@ -72,14 +67,12 @@ li.start {
     display: block;
     text-decoration: none;
     font-weight: bold;
-    font-size: larger;
+    font-size: 1.5vw;
     color: white;
     padding: 3.5vh 2vw;
-    position: relative;
-    top: 5vh;
-    left: 5vw;
+    margin: 6vh 5vw;
     height: 2.5vh;
-    width: 8vw;
+    width: 10vw;
 }
 .background a:hover {
     border: 4px solid #ED661F;
@@ -88,10 +81,10 @@ li.start {
     background-color: white;
     font-weight: bold;
     width: 54vw;
-    height: 0vh;
+    height: 5vh;
     position: absolute;
-    left: 34%;
-    bottom: -20vh;
+    top: 108vh;
+    left: 34.5%;
     border: 1px solid lightgrey;
     border-bottom: 5px solid lightgray ;
     padding-bottom: 10%;
