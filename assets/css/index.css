@@ -18,3 +18,13 @@ a#start {
     background-color: #ED661F;
 }
 /* Nav end */
+
+/* Div.subscription start */
+div.subscription {
+    background-color: black;
+    color: white;
+}
+a.subscribe {
+    color: white;
+}
+/* Div.subscription end */
