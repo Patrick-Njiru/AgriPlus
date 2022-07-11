@@ -97,6 +97,7 @@ li.start {
 
 div.purpose {
     margin-top: 15vh;
+    margin-left: 5vw;
 }
 span {
     border-bottom: 4px solid #ED661F;
@@ -108,7 +109,7 @@ span {
     text-align: left;
 }
 .purpose img {
-    width: 55%;
+    width: 50%;
     height: 50vh;
     position: absolute;
     right:5vw;
@@ -118,7 +119,7 @@ span {
 
 /* Div#products start */
 div#products {
-    margin-top: 30vh;
+    margin: 30vh 5vw 0;
 }
 #products .center {
     text-align: center;
@@ -129,7 +130,7 @@ div#products {
 }
 .popular, .newest {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 10vh;
 }
 .popular img, .newest img {
@@ -174,7 +175,8 @@ div.border {
 /* Div.customers start */
 div.reviews {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin: 0 5vw;
 }
 .reviews div {
     border: 1px outset lightgrey;
@@ -276,7 +278,7 @@ div.contact div.socials {
 span.footer {
     color: white;
     display: inline-block;
-    width: 98vw;
+    width: 100vw;
     height: 8vh;
     border-bottom: 0px;
     text-align: center;
@@ -284,6 +286,9 @@ span.footer {
     font-weight: 700;
 }
 .contact p {
-    font-size: 1.39vw;
+    font-size: 1.39v;
+}
+.contact div.others {
+    margin-right: 5vw;
 }
 /* Div.contact end */
