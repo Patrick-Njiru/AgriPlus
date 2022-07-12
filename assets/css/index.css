@@ -1,0 +1,56 @@
+body {
+    font-family: 'poppins', 'inter', sans-serif;
+    width: 100%;
+    overflow-x: hidden;
+}
+/* Nav start */
+nav {
+    color: white;
+    background-color: black;
+}
+nav a {
+    color: white;
+    font-weight: 600;
+}
+nav #start {
+    font-size: large;
+}
+a#start, li.start {
+    background-color: #ED661F;
+}
+/* Nav end */
+
+/* Div.background start */
+.background a {
+    background-color: #ED661F;
+}
+/* Div.background end */
+
+/* Div.border */
+div.border {
+    background-color: lightgray;
+}
+/* Div.border */
+
+/* Div.subscription start */
+div.subscription {
+    background-color: black;
+    color: white;
+}
+a.subscribe {
+    color: white;
+}
+span.link {
+    background-color: #ED661F;
+}
+/* Div.subscription end */
+
+/* Div.contact start */
+div.contact {
+    color: white;
+    background-color: black;
+}
+span.footer {
+    background-color: black;
+}
+/* Div.contact end */
