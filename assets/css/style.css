@@ -278,6 +278,7 @@ div.contact {
     display: flex;
     margin-top: 2vh;
     height: 60vh;
+    padding-bottom: 2vh;
 }
 div.contact div {
     padding-top: 15vh;
@@ -308,8 +309,9 @@ span.footer {
     height: 8vh;
     border-bottom: 0px;
     text-align: center;
-    font-size: larger;
+    font-size: 1.3vw;
     font-weight: 700;
+    padding-top: 2vh;
 }
 .contact p {
     font-size: 1.39vw;
