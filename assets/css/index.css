@@ -24,6 +24,9 @@ a#start, li.start {
 .background a {
     background-color: #ED661F;
 }
+.background {
+    background-color: white;
+}
 /* Div.background end */
 
 /* Div.border */
